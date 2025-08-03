@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+package-lock.json
+
+# production
+/dist
+
+# misc
+.DS_Store
+.idea
+
+# debug
+npm-debug.log*
+
+# local env files
+.env
+.env.development
+
+# markdown files
+*.md

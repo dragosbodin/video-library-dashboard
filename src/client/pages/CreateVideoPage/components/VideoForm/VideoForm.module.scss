@@ -1,0 +1,31 @@
+.videoForm {
+     max-width: 1200px;
+}
+
+.fileInput {
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+
+    &__icon {
+        width: 18px;
+        height: 18px;
+        color: #f7329c;
+    }
+
+    &__link {
+        text-align: center;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}

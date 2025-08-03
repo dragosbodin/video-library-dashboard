@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": ["ESNext"],
+        "composite": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": false,
+        "esModuleInterop": true,
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "baseUrl": ".",
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true,
+        "types": ["vitest/globals"],
+        "paths": {
+            "server/*": ["src/server/*"],
+            "types/*": ["src/types/*"],
+            "constants/*": ["src/constants/*"],
+            "mocks/*": ["src/mocks/*"],
+            "test-utils/*": ["src/server/test-utils/*"]
+        }
+    },
+    "include": [
+        "src/server/**/*.ts",
+        "src/types/**/*.ts",
+        "src/constants/**/*.ts",
+    ],
+    "exclude": ["node_modules"]
+}
